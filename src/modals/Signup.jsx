@@ -46,6 +46,7 @@ export default function Signup() {
                 </Popup>
                 <Popup trigger={createPassword}>
                     <h3>Generate ID</h3>
+                    <p>Click on the numbers to copy it.</p>
                     <CopyToClipboard text={socialId}>
                         <h4 onClick={handleCopyClick}>{socialId}</h4>
                     </CopyToClipboard>
